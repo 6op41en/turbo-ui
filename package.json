@@ -20,7 +20,7 @@
     "analyze": "size-limit --why",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build-tailwind": "npx tailwindcss -o ./dist/styles.css --minify"
+    "build-tailwind": "npx tailwindcss -o ./dist/tailwind.css --minify"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -36,7 +36,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "elca-ui-kit",
+  "name": "@gopalen/turbo-ui",
   "author": "Parasuraman Gopalen Magadeven",
   "module": "dist/elca-ui-kit.esm.js",
   "size-limit": [
