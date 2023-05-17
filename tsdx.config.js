@@ -9,9 +9,7 @@ module.exports = {
         },
         extensions: ['css'],
         minimize: true,
-        inject: {
-          insertAt: 'top',
-        },
+        inject: true,
       })
     );
     return config;
